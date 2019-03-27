@@ -1,3 +1,23 @@
 .navbar{
-  background: #e3f2fd
+  background: #e3f2fd;
+  font-size: 20px;
+}
+
+/* Media Queries compatible with the Boostrap queries to change alignment of content inside cards in the container in the
+index page. */
+
+@media only screen and (max-width: 576px){
+
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+@media only screen and (min-width: 1200px) {
+    #your_id {width:000px;height:000px;}
 }
