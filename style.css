@@ -1,23 +1,54 @@
 .navbar{
   background: #e3f2fd;
-  font-size: 20px;
+  font-size: 32px;
+  font-family: monospace;
+}
+
+.nav-item{
+  padding: 8px;
+}
+
+.container-fluid{
+  margin-bottom: 24px;
+  font-family: monospace;
+}
+
+.pTagsForCards {
+  margin: 24px 28px 24px 28px;
+  padding: 16px;
+
 }
 
 /* Media Queries compatible with the Boostrap queries to change alignment of content inside cards in the container in the
 index page. */
 
 @media only screen and (max-width: 576px){
-
+  .pTagsForCards{
+    font-size: 20px;
+    font-family: monospace;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-
+  .pTagsForCards{
+    font-size: 24px;
+    font-family: monospace;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-
+  .pTagsForCards{
+    font-size: 24px;
+    font-family: monospace;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
+  .pTagsForCards{
+    font-size: 24px;
+    font-family: monospace;
+  }
 }
 @media only screen and (min-width: 1200px) {
-    #your_id {width:000px;height:000px;}
+  .pTagsForCards{
+    font-size: 24px;
+    font-family: monospace;
+  }
 }
