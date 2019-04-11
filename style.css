@@ -1,9 +1,19 @@
 .navbar{
-  background: #e3f2fd;
-  font-size: 32px;
+  font-size: 24px;
   font-family: monospace;
 }
 
+.jumbotron{
+
+}
+/*body{
+  background: #98FFE0;
+}* /
+
+
+/*.card{
+  background: #98FFE0;
+}*/
 .nav-item{
   padding: 8px;
 }
@@ -11,12 +21,24 @@
 .container-fluid{
   margin-bottom: 24px;
   font-family: monospace;
+
 }
 
-.pTagsForCards {
-  margin: 24px 28px 24px 28px;
-  padding: 16px;
 
+
+
+
+.pTagsForCards {
+  margin: 16px 28px 24px 28px;
+  padding: 8px 16px 8px 16px;
+  font-size: 24px;
+  font-family: monospace;
+}
+
+.pTagsForCardTitles{
+  margin-top: 72px;
+  font-size: 24px;
+  font-family: monospace;
 }
 
 /* Media Queries compatible with the Boostrap queries to change alignment of content inside cards in the container in the
@@ -25,30 +47,51 @@ index page. */
 @media only screen and (max-width: 576px){
   .pTagsForCards{
     font-size: 20px;
-    font-family: monospace;
+  }
+  .pTagsForCardTitles{
+    font-size: 20px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
-  .pTagsForCards{
-    font-size: 24px;
-    font-family: monospace;
-  }
+
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  .pTagsForCards{
-    font-size: 24px;
-    font-family: monospace;
-  }
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .pTagsForCards{
-    font-size: 24px;
-    font-family: monospace;
-  }
+
+
 }
 @media only screen and (min-width: 1200px) {
-  .pTagsForCards{
-    font-size: 24px;
-    font-family: monospace;
-  }
+
+}
+
+/*CONTACT PAGE FORM CSS*/
+
+
+form{
+  margin: 16px 28px 16px 28px;
+  padding: 16px 24px 24px 24px;
+}
+
+.emailFormSection{
+  padding-top:8px;
+}
+.commentFormSection{
+  padding-top:8px;
+}
+.checkFormSection{
+  padding-top: 8px;
+}
+.buttonFormSection{
+  padding-top: 8px;
+}
+
+/* ABOUT PAGE CSS */
+
+.aboutPageParagraph{
+  padding: 24px;
+  margin: 24px;
+  font-family: monospace;
+  font-size: 24px;
 }
