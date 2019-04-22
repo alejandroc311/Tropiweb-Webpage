@@ -10,6 +10,7 @@ function validateEmail(providedEmail) {
   }
 }
 
+
 $('#emailFormInput').on('keydown keyup', function(e){
   var providedEmail = $("#emailFormInput").val();
 

@@ -1,8 +1,14 @@
 .navbar{
-  font-size: 24px;
+  font-size: 20px;
   font-family: monospace;
 
 
+
+}
+
+
+nav{
+  margin: -8px 0 -8px 0;
 }
 
 .jumbotron{
@@ -22,10 +28,9 @@
   padding: 8px;
 
 
+
 }
-.nav-text{
-    color: #00a501;
-}
+
 
 .container-fluid{
   margin-bottom: 24px;
@@ -33,7 +38,9 @@
 
 }
 
-
+.navbar-light .navbar-nav .nav-link{
+  color: #00a501;
+}
 
 
 
