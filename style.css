@@ -2,9 +2,12 @@
   font-size: 24px;
   font-family: monospace;
 
+
 }
 
 .jumbotron{
+  background-image: url("Tropi-banner-5.0.png");
+  background-size: 100% 100%;
 
 }
 /*body{
@@ -17,6 +20,11 @@
 }*/
 .nav-item{
   padding: 8px;
+
+
+}
+.nav-text{
+    color: #00a501;
 }
 
 .container-fluid{
