@@ -1,5 +1,10 @@
+*{
+  margin: 0;
+  padding:0;
+}
 .navbar{
-  font-size: 20px;
+
+  font-size: 24px;
   font-family: monospace;
 
 
@@ -31,15 +36,24 @@ nav{
 
 }
 
+.container-index{
+
+  margin-top:-32px;
+  margin-bottom: 0px;
+
+}
+.index-card{
+  padding-top: 24px;
+}
 
 .container-fluid{
-  margin-bottom: 24px;
+
   font-family: monospace;
 
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: #00a501;
+  color:#00a501;
 }
 
 
@@ -49,12 +63,14 @@ nav{
   padding: 8px 16px 8px 8px;
   font-size: 24px;
   font-family: monospace;
+  
 }
 
 .pTagsForCardTitles{
   margin-top: 32px;
   font-size: 24px;
   font-family: monospace;
+
 }
 
 /* Media Queries compatible with the Boostrap queries to change alignment of content inside cards in the container in the
@@ -85,9 +101,25 @@ index page. */
 /*CONTACT PAGE FORM CSS*/
 
 
+.contact{
+  background-color: #A400A3;
+  font-family: monospace;
+  margin-top: -24px;
+  font-size: 24px;
+  color: white;
+
+
+}
+
+h1{
+  margin-top: 0;
+  padding-top: 48px;
+}
+
 form{
-  margin: 16px 28px 16px 28px;
+
   padding: 16px 24px 24px 24px;
+  background-color: #A400A3;
 }
 
 .emailFormSection{
@@ -106,8 +138,15 @@ form{
 /* ABOUT PAGE CSS */
 
 .aboutPageParagraph{
-  padding: 24px;
+  padding-top: 48px;
+  padding-bottom: 48px;
   margin: 24px;
   font-family: monospace;
   font-size: 24px;
+  color: white;
+}
+
+.about{
+  background-color: #0100A4;
+  margin-top: 0px;
 }
