@@ -10,6 +10,8 @@ function validateEmail(providedEmail) {
   }
 }
 
+console.log($(".index-card").outerHeight(true));
+console.log($(".index-card").outerWidth(true));
 
 $('#emailFormInput').on('keydown keyup', function(e){
   var providedEmail = $("#emailFormInput").val();
