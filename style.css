@@ -7,47 +7,62 @@
 
 
 nav{
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
+
 
 }
+
 .navbar{
 
+  padding-top: 4px;
+  padding-bottom: 4px;
   font-size: 24px;
   font-family: monospace;
+}
+.jquerybrand{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand{
+  background-color: white;
 }
 
 .nav-item{
   padding-right:8px;
   padding-left:8px;
 }
-
-.navbar-brand{
-  background-color: white;
+.jquerybrand{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
 .navbar-light .navbar-nav .nav-link{
   color:#00a501;
+
 }
 
 .jumbotron{
-  background-image: url("Tropi-banner-5.0.png");
+  background-image: url("tropimute.png");
   background-size: 100% 100%;
 
 }
-/*body{
-  background: #98FFE0;
-}* /
 
-
-/*.card{
-  background: #98FFE0;
-}*/
-
+.container-fluid{
+  font-family: monospace;
+}
 
 
 .container-index{
   margin-top:-32px;
   margin-bottom: 0px;
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
+  padding-right: 128px;
+  padding-left: 128px;
+
 }
 
 .index-card{
@@ -55,36 +70,23 @@ nav{
   margin-bottom: 16px;
   padding-top: 24px;
   padding: 4px;
-
-
 }
+.pTagsForCardTitles{
+  margin-top: 16px;
+  font-size: 16px;
 
-.container-fluid{
-
+  padding-right: 8px;
   font-family: monospace;
-
 }
-
-
-
-
 
 .pTagsForCards {
-  margin: 16px 28px 24px 16px;
-  padding: 8px 16px 8px 8px;
-  font-size: 20px;
+  margin: 8px 14px 12px 8px;
+  padding: 4px 16px 4px 16px;
+  font-size: 16px;
   font-family: monospace;
-
 }
 
-.pTagsForCardTitles{
-  margin-top: 32px;
-  font-size: 20px;
-  padding-right: 8px;
 
-  font-family: monospace;
-
-}
 
 /* Media Queries compatible with the Boostrap queries to change alignment of content inside cards in the container in the
 index page. */
