@@ -3,13 +3,13 @@
   margin: 0;
   padding:0;
 }
-
+body{
+  overflow-x: hidden;
+}
 
 
 nav{
   background-color: #f6f6f6;
-
-
 }
 
 .navbar{
@@ -19,6 +19,7 @@ nav{
   font-size: 24px;
   font-family: monospace;
 }
+
 .jquerybrand{
   padding-top: 0;
   padding-bottom: 0;
@@ -75,7 +76,7 @@ nav{
   margin-top: 16px;
   font-size: 16px;
 
-  padding-right: 8px;
+
   font-family: monospace;
 }
 
@@ -88,23 +89,31 @@ nav{
 
 
 
+.container-pricing{
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
 /* Media Queries compatible with the Boostrap queries to change alignment of content inside cards in the container in the
 index page. */
 
 @media only screen and (max-width: 576px){
   .pTagsForCards{
-    font-size: 16px;
+    font-size: 8px;
   }
   .pTagsForCardTitles{
-    font-size: 16px;
+    font-size: 12px;
   }
 
-  .about .aboutPageParagraph{
-    padding-right: 0px;
-    padding-left: 0px;
+  .aboutPageParagraph{
+    padding-right: 32px;
+    padding-left: 32px;
     margin: 8px;
   }
-
+  .container-index{
+    padding-right: 32px;
+    padding-left: 32px;
+  }
 }
 @media only screen and (min-width: 576px) and (max-width: 768px) {
   .aboutPageParagraph{
@@ -112,27 +121,83 @@ index page. */
     padding-left: 48px;
     margin:16px;
   }
+  .container-index{
+    padding-right: 48px;
+    padding-left: 48px;
+  }
+  .pTagsForCards{
+    text-align: left;
+    font-size: 10px;
+  }
+
 
 }
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .container-index{
+    padding-right: 36px;
+    padding-left: 36px;
+  }
+  .pTagsForCards{
+    text-align: left;
+    font-size: 12px;
+  }
+
 
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-
+  .container-index{
+    padding-right: 96px;
+    padding-left: 96px;
+  }
 
 }
 @media only screen and (min-width: 1200px) {
+  .pTagsForCards{
+    text-align: justify;
+  }
+
 
 }
+/* ABOUT PAGE CSS */
+
+.aboutPageParagraph{
+  padding-top: 48px;
+  padding-bottom: 0px;
+  font-family: monospace;
+  font-size: 16px;
+  color: white;
+}
+
+.about-container{
+  padding-bottom: 24px;
+  background-color: #7fd6c2;
+  color: white;
+  font-family: monospace;
+}
+
+.about-container .card{
+  background-color: #7fd6c2;
+  color: white;
+  font-family: monospace;
+}
+.about-vimg-div{
+  padding-top: 32px;
+}
+
 
 /*CONTACT PAGE FORM CSS*/
 
-
-.contact{
-  background-color: #A400A3;
+.contact-header-div{
+  background-color: #7fd6c2;
+  color: white;
   font-family: monospace;
-  margin-top: -24px;
-  font-size: 24px;
+}
+
+.contact-container{
+  background-color: #7fd6c2;
+  font-family: monospace;
+  margin-top: 0px;
+  font-size: 16px;
   color: white;
 
 
@@ -140,13 +205,21 @@ index page. */
 
 h1{
   margin-top: 0;
-  padding-top: 48px;
+  padding-top: 24px;
 }
 
 form{
 
   padding: 16px 24px 24px 24px;
-  background-color: #A400A3;
+  background-color: #7fd6c2;;
+}
+
+.form-div{
+  background-color: #7fd6c2;
+  font-family: monospace;
+  margin-top: 0px;
+  font-size: 16px;
+  color: white;
 }
 
 .emailFormSection{
@@ -160,28 +233,4 @@ form{
 }
 .buttonFormSection{
   padding-top: 8px;
-}
-
-/* ABOUT PAGE CSS */
-
-.aboutPageParagraph{
-  padding-top: 48px;
-  padding-bottom: 0px;
-  margin: 24px;
-  padding-right: 72px;
-  padding-left: 72px;
-  font-family: monospace;
-  font-size: 24px;
-  color: black;
-}
-
-.about{
-  background-color: #0100A4;
-  margin-top: 0px;
-  color: white;
-
-}
-
-.about-container{
-  padding-bottom: 48px;
 }
