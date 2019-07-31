@@ -1,4 +1,25 @@
 
+@font-face {
+    font-family: 'quarklight';
+    src: url('quark-light-webfont.woff2') format('woff2'),
+         url('quark-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'quarkbold';
+    src: url('quark-bold-webfont.woff2') format('woff2'),
+         url('quark-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 *{
   margin: 0;
   padding:0;
@@ -17,7 +38,7 @@ nav{
   padding-top: 4px;
   padding-bottom: 4px;
   font-size: 24px;
-  font-family: monospace;
+  font-family: 'quarkbold';
 }
 
 .jquerybrand{
@@ -53,14 +74,14 @@ nav{
 }
 
 .container-fluid{
-  font-family: monospace;
+  font-family: 'quarkbold';   ***
 }
 
 
 .container-index{
   margin-top:-32px;
   margin-bottom: 0px;
-  background-color: #f6f6f6;
+  background-color: #f1f1f1;
   padding-right: 128px;
   padding-left: 128px;
 
@@ -72,19 +93,18 @@ nav{
   padding-top: 24px;
   padding: 4px;
 }
+
 .pTagsForCardTitles{
   margin-top: 16px;
   font-size: 16px;
-
-
-  font-family: monospace;
+  font-family: 'quarkbold';  ****
 }
 
 .pTagsForCards {
   margin: 8px 14px 12px 8px;
   padding: 4px 16px 4px 16px;
   font-size: 16px;
-  font-family: monospace;
+  font-family: 'quarkbold'; ***
 }
 
 
@@ -163,7 +183,7 @@ index page. */
 .aboutPageParagraph{
   padding-top: 48px;
   padding-bottom: 0px;
-  font-family: monospace;
+  font-family: 'quarkbold';
   font-size: 16px;
   color: white;
 }
@@ -172,13 +192,13 @@ index page. */
   padding-bottom: 24px;
   background-color: #7fd6c2;
   color: white;
-  font-family: monospace;
+  font-family: 'quarkbold';
 }
 
 .about-container .card{
   background-color: #7fd6c2;
   color: white;
-  font-family: monospace;
+  font-family: 'quarkbold';
 }
 .about-vimg-div{
   padding-top: 32px;
@@ -190,12 +210,12 @@ index page. */
 .contact-header-div{
   background-color: #7fd6c2;
   color: white;
-  font-family: monospace;
+  font-family: 'quarkbold';
 }
 
 .contact-container{
   background-color: #7fd6c2;
-  font-family: monospace;
+  font-family: 'quarkbold';
   margin-top: 0px;
   font-size: 16px;
   color: white;
@@ -216,7 +236,7 @@ form{
 
 .form-div{
   background-color: #7fd6c2;
-  font-family: monospace;
+  font-family: 'quarkbold';
   margin-top: 0px;
   font-size: 16px;
   color: white;
