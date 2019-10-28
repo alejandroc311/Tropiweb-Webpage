@@ -9,9 +9,10 @@ function validateEmail(providedEmail) {
     return false;
   }
 }
+console.log($(".jumbotron").outerHeight(true));
+console.log($(".jumbotron").outerWidth(true));
 
-console.log($(".index-card").outerHeight(true));
-console.log($(".index-card").outerWidth(true));
+
 
 $('#emailFormInput').on('keydown keyup', function(e){
   var providedEmail = $("#emailFormInput").val();
