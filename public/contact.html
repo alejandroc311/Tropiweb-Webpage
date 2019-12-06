@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tropiweb</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <div>
+        <button class="navbar-toggler" data-toggle="collapse" type="button"  data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        </button>
+        <span class="navbar-toggler-icon"></span>
+      </div>
+
+      <div class="jquerybrand" >
+        <a class="navbar-brand border border-success rounded-circle" href="#">
+          <img src="tropilogo2.png" class="d-inline-block align-top" alt="tropiweb logo web-page website quality cheap expert fancy html css development">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+
+    <!-- Jumbotron with Tropiweb logo as background. First div controls the jumbotron. Second div is the container.
+    Third div and subsequent divs are flexboxes inside the containers which will both respectively organize
+    the content in the jumbotron-->
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container container-fluid">
+        <br><br><br><br><br><br><br><br><br><br><br>
+
+      </div>
+
+    </div>
+    <!-- This will be the contact page's form for clients wishing to send a message which will be directed straight to Tropiweb's email -->
+<form>
+  <div class="form-row d-flex justify-content-center emailFormSection">
+    <div class="form-group col-lg-6">
+      <div>
+        <label for="emailFormInput">Email Address</label>
+      </div>
+        <input type="email" class="form-control" id="emailFormInput" placeholder="youremail@email.com" required>
+    </div>
+  </div>
+  <div class="form-row d-flex justify-content-center commentFormSection">
+    <div class="form-group col-lg-6">
+      <div>
+        <label for="commentFormInput">Any questions or interested in hiring us? Go ahead and let us know!</label>
+      </div>
+      <textarea type="text" class="form-control" id="commentFormInput" placeholder="Comment..." required></textarea>
+    </div>
+  </div>
+  <div class="form-row d-flex justify-content-center checkFormSection">
+    <div class="form-group col-lg-6">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="invalidCheck" value="" required>
+        <label for="form-check-label" for="invalidCheck">Please check to make sure you're a human</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-row d-flex justify-content-center buttonFormSection">
+    <div class="form-group col-lg-6">
+      <button class="btn btn-primary" type="submit">Submit Comment</button>
+    </div>
+
+  </div>
+
+</form>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="formVerification.js"></script>
+  </body>
+</html>
