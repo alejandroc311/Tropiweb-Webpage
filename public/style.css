@@ -4,18 +4,13 @@
     src:  url('quark-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'quarkbold';
     src: url('quark-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 *{
@@ -26,93 +21,139 @@ body{
   overflow-x: hidden;
 }
 
-
-nav{
-
-}
+/*NAVBAR CSS*/
 
 .navbar{
-
-  padding-top: 4px;
-  padding-bottom: 4px;
-  font-size: 24px;
-  font-family: 'quarkbold';
-}
-
-.jquerybrand{
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.navbar-brand{
-
-}
-
-.nav-item{
-  padding-right:8px;
-  padding-left:8px;
-}
-.jquerybrand{
-  padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.navbar-light .navbar-nav .nav-link{
-  font-family: "quarklight";
-
-}
-
-.jumbotron{
-
-  background-image: url("tropimute.png");
-  background-size: 100% 100%;
-
-}
-
-.container-fluid{
+  font-size: 1.5rem;
   font-family: 'quarklight';
 }
+
+.jquerybrand{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width:576px) {
+  .jquerybrand{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.575rem;
+
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width: 768px){
+  .jquerybrand{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.6rem;
+
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  .jquerybrand{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.625rem;
+  }
+}
+
+/*JUMBOTRON CSS*/
+
+.jumbotron{
+  background-image: url("tropimute.png");
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width:400px){
+  .jumbotron{
+    height: 7.625rem;
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:576px){
+  .jumbotron{
+    height: 11rem;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+  .jumbotron{
+    height: 11.5rem;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  .jumbotron{
+    height: 14rem;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+  .jumbotron{
+    height: 17.5rem;
+  }
+}
+@media only screen and (min-width:1200px){
+  .jumbotron{
+    height: 20rem;
+  }
+}
+
+
+/*INDEX PAGE CSS*/
 
 
 .container-index{
-  margin-top:-32px;
-  margin-bottom: 0px;
-
-
+  margin-top:-2rem;
+  margin-bottom: 0;
 }
 
 .index-card{
-  padding-left:1.25rem;
-  padding-right:1.25rem;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding: 1rem;
   margin: 1rem;
+  font-family: "quarklight";
 }
 
 .pTagsForCardTitles{
-  margin-top: 16px;
-  font-size: 1.25rem;
-  font-family: 'quarklight';
+  margin-top: 1rem;
+  font-size: 1.250rem;
 }
 
 .pTagsForCards {
-  margin: 8px 14px 12px 8px;
-  padding: 4px 16px 4px 16px;
-  font-size: 0.9375rem;
-  font-family: 'quarklight';
+  text-align: justify;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .pTagsForCards{
+    font-size: 0.625rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 0.675rem;
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:576px) {
+  .pTagsForCards{
+    font-size: 0.800rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 0.850rem;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+  .pTagsForCards{
+    font-size: 0.850rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 0.900rem;
+  }
 }
 
 
-
-.container-pricing{
-  margin-bottom: 16px;
-  padding: 16px;
-}
-
-/*QUERY FOR MOBILE DESIGN OF CAROUSEL FOR INDEX CONTENT*/
+/*QUERY FOR MOBILE DESIGN OF CAROUSEL FOR INDEX AND PRICING CONTENT*/
 
 @media only screen and (max-width: 767px) {
   .carousel-inner .carousel-item > div {
@@ -124,150 +165,70 @@ nav{
   }
 }
 
-/* Media Queries compatible with the Boostrap queries to change alignment of content inside cards in the container in the
-index page. */
 
-@media only screen and (max-width: 576px){
-  .pTagsForCards{
-
-  }
-  .pTagsForCardTitles{
-
-  }
-
-  .aboutPageParagraph{
-    padding-right: 32px;
-    padding-left: 32px;
-    margin: 8px;
-  }
-
-  .jumbotron{
-    height: 10rem;
-  }
-  .jquerybrand{
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 2.625rem;
-
-  }
-
-}
-@media only screen and (min-width: 576px) and (max-width: 768px) {
-  .aboutPageParagraph{
-    padding-right: 48px;
-    padding-left: 48px;
-    margin:16px;
-  }
-
-  .pTagsForCards{
-    text-align: left;
-
-  }
-  .jumbotron{
-    height: 10rem;
-  }
-  .jquerybrand{
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 2.6rem;
-
-  }
-
-
-}
-@media only screen and (min-width: 768px) and (max-width: 992px) {
-
-  .pTagsForCards{
-    text-align: left;
-
-  }
-  .jumbotron{
-    height: 14rem;
-  }
-  .jquerybrand{
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 2.6rem;
-  }
-
-
-}
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-  .container-index{
-
-  }
-  .jumbotron{
-    height: 18.5rem;
-  }
-
-}
-@media only screen and (min-width: 1200px) {
-  .pTagsForCards{
-    text-align: justify;
-  }
-  .jumbotron{
-    height: 21.2rem;
-  }
-
-
-
-}
 /* PRICING PAGE CSS*/
 
 .container-pagetransition{
-  font-family: quarklight;
+  font-family: "quarklight";
 }
-.header-pricing-line{
-
-
+.container-pricing{
+  margin-bottom: 1rem;
 }
+
 .pricing-card{
-  padding-left:1.25rem;
-  padding-right:1.25rem;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
   margin: 1rem;
-  font-family: quarklight;
   font-size: 1rem;
+  font-family: "quarklight";
+
+}
+.pricing-card-heading{
+  margin-top: 0.825rem;
+  font-size: 1.600rem;
+}
+.pricing-card-title{
+  font-size: 1.525rem;
 }
 
-.card-body ul li::before{
+.pricing-card .card-body ul li::before{
   content: "\2022";
   margin-right: 0.125rem;
   color: #00A501;
   font-weight: bold;
   width: 10em;
 }
-.card h4{
-  margin-top: 2rem;
+
+@media only screen and (max-width:400px){
+  .pricing-card{
+    font-size: 0.625rem;
+  }
+  .pricing-card-heading{
+    font-size: 1.250rem;
+  }
+  .pricing-card-title{
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+
+  .pricing-card-heading{
+    font-size: 1.500rem;
+  }
+  .pricing-card-title{
+    font-size: 1.250rem;
+  }
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+  .pricing-card-heading{
+    font-size: 1.575rem;
+  }
+  .pricing-card-title{
+    font-size: 1.350rem;
+  }
 }
 
 
 /* ABOUT PAGE CSS */
 
-.aboutPageParagraph{
-  padding-top: 48px;
-  padding-bottom: 0px;
-  font-family: 'quarkbold';
-  font-size: 16px;
-  color: white;
-}
-
-.about-container{
-  padding-bottom: 24px;
-  background-color: #7fd6c2;
-  color: white;
-  font-family: 'quarkbold';
-}
-
-.about-container .card{
-  background-color: #7fd6c2;
-  color: white;
-  font-family: 'quarkbold';
-}
-.about-vimg-div{
-  padding-top: 32px;
-}
 
 
 /*CONTACT PAGE FORM CSS*/
@@ -285,10 +246,6 @@ index page. */
   font-size: 16px;
   color: white;
 
-
-}
-
-h1{
 
 }
 
