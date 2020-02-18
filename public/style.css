@@ -123,27 +123,38 @@ body{
 .pTagsForCards {
   text-align: justify;
   font-size: 1rem;
+  margin-top: 0.625rem;
 }
 
 @media only screen and (max-width: 400px) {
-  .pTagsForCards{
-    font-size: 0.625rem;
+  .index-card{
+    border: none;
   }
-  .pTagsForCardTitles{
-    font-size: 0.675rem;
-  }
-}
-
-@media only screen and (min-width:400px) and (max-width:576px) {
   .pTagsForCards{
-    font-size: 0.800rem;
+    font-size: 0.775rem;
   }
   .pTagsForCardTitles{
     font-size: 0.850rem;
   }
+
+}
+
+@media only screen and (min-width:400px) and (max-width:576px) {
+  .index-card{
+    border: none;
+  }
+  .pTagsForCards{
+    font-size: 0.800rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 0.875rem;
+  }
 }
 
 @media only screen and (min-width:576px) and (max-width:768px) {
+  .index-card{
+    border: none;
+  }
   .pTagsForCards{
     font-size: 0.850rem;
   }
@@ -199,7 +210,8 @@ body{
 
 @media only screen and (max-width:400px){
   .pricing-card{
-    font-size: 0.625rem;
+    font-size: 0.800rem;
+    border: none;
   }
   .pricing-card-heading{
     font-size: 1.250rem;
@@ -209,7 +221,9 @@ body{
   }
 }
 @media only screen and (min-width:400px) and (max-width:576px){
-
+  .pricing-card{
+    border: none;
+  }
   .pricing-card-heading{
     font-size: 1.500rem;
   }
@@ -218,6 +232,9 @@ body{
   }
 }
 @media only screen and (min-width:576px) and (max-width:768px){
+  .pricing-card{
+    border:none;
+  }
   .pricing-card-heading{
     font-size: 1.575rem;
   }
