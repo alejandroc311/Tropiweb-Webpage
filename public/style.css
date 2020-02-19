@@ -116,7 +116,7 @@ body{
 }
 
 .pTagsForCardTitles{
-  margin-top: 1rem;
+  margin-top: 1.625rem;
   font-size: 1.250rem;
 }
 
@@ -134,7 +134,7 @@ body{
     font-size: 0.775rem;
   }
   .pTagsForCardTitles{
-    font-size: 0.850rem;
+    font-size: 1rem;
   }
 
 }
@@ -147,7 +147,7 @@ body{
     font-size: 0.800rem;
   }
   .pTagsForCardTitles{
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 }
 
@@ -159,7 +159,7 @@ body{
     font-size: 0.850rem;
   }
   .pTagsForCardTitles{
-    font-size: 0.900rem;
+    font-size: 1rem;
   }
 }
 
@@ -225,10 +225,10 @@ body{
     border: none;
   }
   .pricing-card-heading{
-    font-size: 1.500rem;
+    font-size: 1.3rem;
   }
   .pricing-card-title{
-    font-size: 1.250rem;
+    font-size: 1.125rem;
   }
 }
 @media only screen and (min-width:576px) and (max-width:768px){
@@ -236,10 +236,10 @@ body{
     border:none;
   }
   .pricing-card-heading{
-    font-size: 1.575rem;
+    font-size: 1.350rem;
   }
   .pricing-card-title{
-    font-size: 1.350rem;
+    font-size: 1.225rem;
   }
 }
 
