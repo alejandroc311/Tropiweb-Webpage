@@ -17,9 +17,7 @@
   margin: 0;
   padding:0;
 }
-body{
-  overflow-x: hidden;
-}
+
 
 /*NAVBAR CSS*/
 
@@ -69,13 +67,13 @@ body{
 
 @media only screen and (max-width:400px){
   .jumbotron{
-    height: 7.625rem;
+    height: 6rem;
   }
 }
 
 @media only screen and (min-width:400px) and (max-width:576px){
   .jumbotron{
-    height: 11rem;
+    height: 7.25rem;
   }
 }
 
@@ -110,25 +108,26 @@ body{
 }
 
 .index-card{
-  padding: 1rem;
-  margin: 1rem;
+  padding:0.625rem;
+  margin: 1.625rem;
   font-family: "quarklight";
 }
 
 .pTagsForCardTitles{
-  margin-top: 1.625rem;
-  font-size: 1.250rem;
+  margin-top: 1.25rem;
+  font-size: 1.12rem;
 }
 
 .pTagsForCards {
   text-align: justify;
   font-size: 1rem;
-  margin-top: 0.625rem;
+
 }
 
 @media only screen and (max-width: 400px) {
   .index-card{
-    border: none;
+    margin: 2.5rem;
+
   }
   .pTagsForCards{
     font-size: 0.775rem;
@@ -141,10 +140,10 @@ body{
 
 @media only screen and (min-width:400px) and (max-width:576px) {
   .index-card{
-    border: none;
+    margin: 3.625rem;
   }
   .pTagsForCards{
-    font-size: 0.800rem;
+    font-size: 0.825rem;
   }
   .pTagsForCardTitles{
     font-size: 1rem;
@@ -153,10 +152,21 @@ body{
 
 @media only screen and (min-width:576px) and (max-width:768px) {
   .index-card{
-    border: none;
+    margin: 4.625rem;
   }
   .pTagsForCards{
     font-size: 0.850rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px) {
+  .index-card{
+    margin: 5.625rem;
+  }
+  .pTagsForCards{
+    font-size: 0.925rem;
   }
   .pTagsForCardTitles{
     font-size: 1rem;
@@ -166,12 +176,65 @@ body{
 
 /*QUERY FOR MOBILE DESIGN OF CAROUSEL FOR INDEX AND PRICING CONTENT*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 993px) {
   .carousel-inner .carousel-item > div {
     display: none;
   }
   .carousel-inner .carousel-item > div:first-child {
     display: block;
+
+  }
+}
+
+/*pcbjumbotron*/
+.pcbcontainer .jumbotron{
+
+  background-image: url("pcb.png");
+  background-size: 100% 100%;
+
+}
+
+@media only screen and (max-width:400px){
+  .pcbcontainer .jumbotron{
+    width:22.5rem;
+    height:13.85rem;
+
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:576px){
+  .pcbcontainer .jumbotron{
+    width:22.5rem;
+    height:13.85rem;
+
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+  .pcbcontainer .jumbotron{
+    width:43.75rem;
+    height:27rem;
+
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  .pcbcontainer .jumbotron{
+    width:56.25rem;
+    height:34.72rem;
+
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+  .pcbcontainer .jumbotron{
+    width:62.50rem;
+    height:38.60rem;
+
+  }
+}
+@media only screen and (min-width:1200px){
+  .pcbcontainer .jumbotron{
+    width:62.50rem;
+    height:38.60rem;
 
   }
 }
@@ -182,12 +245,14 @@ body{
 .container-pagetransition{
   font-family: "quarklight";
 }
+
+
 .container-pricing{
   margin-bottom: 1rem;
 }
 
 .pricing-card{
-  margin: 1rem;
+  margin: 3.25rem;
   font-size: 1rem;
   font-family: "quarklight";
 
@@ -210,8 +275,8 @@ body{
 
 @media only screen and (max-width:400px){
   .pricing-card{
-    font-size: 0.800rem;
-    border: none;
+    font-size: 0.825rem;
+
   }
   .pricing-card-heading{
     font-size: 1.250rem;
@@ -222,7 +287,7 @@ body{
 }
 @media only screen and (min-width:400px) and (max-width:576px){
   .pricing-card{
-    border: none;
+
   }
   .pricing-card-heading{
     font-size: 1.3rem;
@@ -233,7 +298,7 @@ body{
 }
 @media only screen and (min-width:576px) and (max-width:768px){
   .pricing-card{
-    border:none;
+
   }
   .pricing-card-heading{
     font-size: 1.350rem;
@@ -243,52 +308,22 @@ body{
   }
 }
 
+html, body{
+  width: auto!important;
+  overflow-x: hidden!important;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+
+}
+html{
+  visibility: visible!important;
+  opacity: 1!important;
+}
 
 /* ABOUT PAGE CSS */
 
 
 
 /*CONTACT PAGE FORM CSS*/
-
-.contact-header-div{
-  background-color: #7fd6c2;
-  color: white;
-  font-family: 'quarkbold';
-}
-
-.contact-container{
-  background-color: #7fd6c2;
-  font-family: 'quarkbold';
-  margin-top: 0px;
-  font-size: 16px;
-  color: white;
-
-
-}
-
-form{
-
-  padding: 16px 24px 24px 24px;
-  background-color: #7fd6c2;;
-}
-
-.form-div{
-  background-color: #7fd6c2;
-  font-family: 'quarkbold';
-  margin-top: 0px;
-  font-size: 16px;
-  color: white;
-}
-
-.emailFormSection{
-  padding-top:8px;
-}
-.commentFormSection{
-  padding-top:8px;
-}
-.checkFormSection{
-  padding-top: 8px;
-}
-.buttonFormSection{
-  padding-top: 8px;
-}
