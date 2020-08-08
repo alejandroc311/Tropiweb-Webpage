@@ -44,18 +44,39 @@ $('#commentFormInput').on('keydown keyup', function(e){
 
 });
 
+function getEmail(){
+  return $("#emailFormInput").val();
+}
+function getComment(){
+  return $("#commentFormInput").val();
+}
+
 $(function(){
     $('.contactForm').submit(function(event){
         event.preventDefault();
+        console.log("Submit event is fired");
+        var data = {
+          email: getEmail(),
+          comment: getComment()
+        };
         $.ajax({
-          url: '/',
+          url: "https://rqwq3jswjd.execute-api.us-east-1.amazonaws.com/contactinfobeta5/contact-info-forward",
           type: 'post',
-          data: $('.contactForm').serialize(),
+          contentType: "application/json",
+          data: JSON.stringify(data),
           success: function(){
-            console.log('worked');
+            console.log("Info was successfully transferred to Lambda API.");
+            console.log(data);
             $('.btn').attr('disabled', true);
             $('#emailFormInput').val('');
             $('#commentFormInput').val('');
+          },
+          error: function(jqXHR, textStatus, errorThrown){
+            if (jqXHR.status == 500) {
+                      console.log('Internal error: ' + jqXHR.responseText+"  "+errorThrown);
+                  } else {
+                      console.log(errorThrown);
+                  }
           }
         });
     });

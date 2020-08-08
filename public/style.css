@@ -126,7 +126,7 @@
 
 @media only screen and (max-width: 400px) {
   .index-card{
-    margin: 2.5rem;
+    margin: 2.813rem;
 
   }
   .pTagsForCards{
@@ -140,7 +140,7 @@
 
 @media only screen and (min-width:400px) and (max-width:576px) {
   .index-card{
-    margin: 3.625rem;
+    margin: 3.125rem;
   }
   .pTagsForCards{
     font-size: 0.825rem;
@@ -152,7 +152,7 @@
 
 @media only screen and (min-width:576px) and (max-width:768px) {
   .index-card{
-    margin: 4.625rem;
+    margin: 3.75rem;
   }
   .pTagsForCards{
     font-size: 0.850rem;
@@ -176,15 +176,7 @@
 
 /*QUERY FOR MOBILE DESIGN OF CAROUSEL FOR INDEX AND PRICING CONTENT*/
 
-@media only screen and (max-width: 993px) {
-  .carousel-inner .carousel-item > div {
-    display: none;
-  }
-  .carousel-inner .carousel-item > div:first-child {
-    display: block;
 
-  }
-}
 
 /*pcbjumbotron*/
 .pcbcontainer .jumbotron{
@@ -311,10 +303,6 @@
 html, body{
   width: auto!important;
   overflow-x: hidden!important;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-
 
 }
 html{
