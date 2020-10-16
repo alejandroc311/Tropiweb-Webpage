@@ -111,6 +111,7 @@
   padding:0.625rem;
   margin: 1.625rem;
   font-family: "quarklight";
+  font-size: 1rem;
 }
 
 .pTagsForCardTitles{
@@ -130,7 +131,7 @@
 
   }
   .pTagsForCards{
-    font-size: 0.775rem;
+    font-size: 0.825rem;
   }
   .pTagsForCardTitles{
     font-size: 1rem;
@@ -156,17 +157,6 @@
   }
   .pTagsForCards{
     font-size: 0.850rem;
-  }
-  .pTagsForCardTitles{
-    font-size: 1rem;
-  }
-}
-@media only screen and (min-width:768px) and (max-width:992px) {
-  .index-card{
-    margin: 5.625rem;
-  }
-  .pTagsForCards{
-    font-size: 0.925rem;
   }
   .pTagsForCardTitles{
     font-size: 1rem;
@@ -268,7 +258,6 @@
 @media only screen and (max-width:400px){
   .pricing-card{
     font-size: 0.825rem;
-
   }
   .pricing-card-heading{
     font-size: 1.250rem;
@@ -279,7 +268,7 @@
 }
 @media only screen and (min-width:400px) and (max-width:576px){
   .pricing-card{
-
+    font-size: 1rem;
   }
   .pricing-card-heading{
     font-size: 1.3rem;
