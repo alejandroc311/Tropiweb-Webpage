@@ -1,0 +1,306 @@
+
+@font-face {
+    font-family: 'quarklight';
+    src:  url('quark-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'quarkbold';
+    src: url('quark-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+
+/*NAVBAR CSS*/
+
+.navbar{
+  font-size: 1.5rem;
+  font-family: 'quarklight';
+}
+
+.jquerybrand{
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width:576px) {
+  .jquerybrand{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.575rem;
+
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width: 768px){
+  .jquerybrand{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.6rem;
+
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  .jquerybrand{
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2.625rem;
+  }
+}
+
+/*JUMBOTRON CSS*/
+
+.jumbotron{
+  background-image: url("tropimute.png");
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width:400px){
+  .jumbotron{
+    height: 6rem;
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:576px){
+  .jumbotron{
+    height: 7.25rem;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+  .jumbotron{
+    height: 11.5rem;
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  .jumbotron{
+    height: 14rem;
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+  .jumbotron{
+    height: 17.5rem;
+  }
+}
+@media only screen and (min-width:1200px){
+  .jumbotron{
+    height: 20rem;
+  }
+}
+
+
+/*INDEX PAGE CSS*/
+
+
+.container-index{
+  margin-top:-2rem;
+  margin-bottom: 0;
+}
+
+.index-card{
+  padding:0.625rem;
+  margin: 1.625rem;
+  font-family: "quarklight";
+  font-size: 1rem;
+}
+
+.pTagsForCardTitles{
+  margin-top: 1.25rem;
+  font-size: 1.12rem;
+}
+
+.pTagsForCards {
+  text-align: justify;
+  font-size: 1rem;
+
+}
+
+@media only screen and (max-width: 400px) {
+  .index-card{
+    margin: 2.813rem;
+
+  }
+  .pTagsForCards{
+    font-size: 0.825rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (min-width:400px) and (max-width:576px) {
+  .index-card{
+    margin: 3.125rem;
+  }
+  .pTagsForCards{
+    font-size: 0.825rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px) {
+  .index-card{
+    margin: 3.75rem;
+  }
+  .pTagsForCards{
+    font-size: 0.850rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 1rem;
+  }
+}
+
+
+/*QUERY FOR MOBILE DESIGN OF CAROUSEL FOR INDEX AND PRICING CONTENT*/
+
+
+
+/*pcbjumbotron*/
+.pcbcontainer .jumbotron{
+
+  background-image: url("pcb.png");
+  background-size: 100% 100%;
+
+}
+
+@media only screen and (max-width:400px){
+  .pcbcontainer .jumbotron{
+    width:22.5rem;
+    height:13.85rem;
+
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:576px){
+  .pcbcontainer .jumbotron{
+    width:22.5rem;
+    height:13.85rem;
+
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:768px){
+  .pcbcontainer .jumbotron{
+    width:43.75rem;
+    height:27rem;
+
+  }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+  .pcbcontainer .jumbotron{
+    width:56.25rem;
+    height:34.72rem;
+
+  }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+  .pcbcontainer .jumbotron{
+    width:62.50rem;
+    height:38.60rem;
+
+  }
+}
+@media only screen and (min-width:1200px){
+  .pcbcontainer .jumbotron{
+    width:62.50rem;
+    height:38.60rem;
+
+  }
+}
+
+
+/* PRICING PAGE CSS*/
+
+.container-pagetransition{
+  font-family: "quarklight";
+}
+
+
+.container-pricing{
+  margin-bottom: 1rem;
+}
+
+.pricing-card{
+  margin: 3.25rem;
+  font-size: 1rem;
+  font-family: "quarklight";
+
+}
+.pricing-card-heading{
+  margin-top: 0.825rem;
+  font-size: 1.600rem;
+}
+.pricing-card-title{
+  font-size: 1.525rem;
+}
+
+.pricing-card .card-body ul li::before{
+  content: "\2022";
+  margin-right: 0.125rem;
+  color: #00A501;
+  font-weight: bold;
+  width: 10em;
+}
+
+@media only screen and (max-width:400px){
+  .pricing-card{
+    font-size: 0.825rem;
+  }
+  .pricing-card-heading{
+    font-size: 1.250rem;
+  }
+  .pricing-card-title{
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+  .pricing-card{
+    font-size: 1rem;
+  }
+  .pricing-card-heading{
+    font-size: 1.3rem;
+  }
+  .pricing-card-title{
+    font-size: 1.125rem;
+  }
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+  .pricing-card{
+
+  }
+  .pricing-card-heading{
+    font-size: 1.350rem;
+  }
+  .pricing-card-title{
+    font-size: 1.225rem;
+  }
+}
+
+html, body{
+  width: auto!important;
+  overflow-x: hidden!important;
+
+}
+html{
+  visibility: visible!important;
+  opacity: 1!important;
+}
+
+/* ABOUT PAGE CSS */
+
+
+
+/*CONTACT PAGE FORM CSS*/
