@@ -31,6 +31,7 @@
   padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 2.5rem;
 }
 
 @media only screen and (max-width:576px) {
@@ -79,7 +80,7 @@
 
 @media only screen and (min-width:576px) and (max-width:768px){
   .jumbotron{
-    height: 11.5rem;
+    height: 9.75rem;
   }
 }
 @media only screen and (min-width:768px) and (max-width:992px){
@@ -89,12 +90,12 @@
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
   .jumbotron{
-    height: 17.5rem;
+    height: 15.25rem;
   }
 }
 @media only screen and (min-width:1200px){
   .jumbotron{
-    height: 20rem;
+    height: 17.75rem;
   }
 }
 
@@ -103,7 +104,7 @@
 
 
 .container-index{
-  margin-top:-2rem;
+
   margin-bottom: 0;
 }
 
@@ -116,53 +117,127 @@
 
 .pTagsForCardTitles{
   margin-top: 1.25rem;
-  font-size: 1.12rem;
+
 }
 
 .pTagsForCards {
-  text-align: justify;
-  font-size: 1rem;
+
 
 }
 
-@media only screen and (max-width: 400px) {
-  .index-card{
-    margin: 2.813rem;
 
+@media only screen and (min-width:400px) and (max-width:500px) {
+  .glider-container{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+  .index-card{
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
+    text-align: left;
   }
   .pTagsForCards{
-    font-size: 0.825rem;
+
   }
   .pTagsForCardTitles{
-    font-size: 1rem;
-  }
 
+  }
 }
 
-@media only screen and (min-width:400px) and (max-width:576px) {
+@media only screen and (min-width:500px) and (max-width:640px) {
+  .glider-container{
+
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
   .index-card{
-    margin: 3.125rem;
+    text-align: left;
   }
   .pTagsForCards{
-    font-size: 0.825rem;
+
   }
   .pTagsForCardTitles{
-    font-size: 1rem;
+
   }
 }
+@media only screen and (min-width:640px) and (max-width:720px){
+  .glider-container{
 
-@media only screen and (min-width:576px) and (max-width:768px) {
+    padding-right: 7.5rem;
+    padding-left: 7.5rem;
+  }
   .index-card{
-    margin: 3.75rem;
+    text-align: left;
   }
   .pTagsForCards{
-    font-size: 0.850rem;
+
   }
   .pTagsForCardTitles{
-    font-size: 1rem;
+
+  }
+}
+@media only screen and (min-width:720px) and (max-width:960px) {
+  .glider-container{
+    padding-right: 2.50rem;
+    padding-left: 2.50rem;
+  }
+  .index-card{
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    text-align: left;
+  }
+  .pTagsForCards{
+
+  }
+  .pTagsForCardTitles{
+
   }
 }
 
+@media only screen and (min-width:960px) and (max-width:1140px) {
+  .glider-container{
+    padding-right: 2.50rem;
+    padding-left: 2.50rem;
+  }
+  .index-card{
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+  }
+  .pTagsForCards{
+
+  }
+  .pTagsForCardTitles{
+
+  }
+}
+@media only screen and (min-width:1140px) and (max-width:1320px) {
+  .glider-container{
+    padding-right: 2.50rem;
+    padding-left: 2.50rem;
+  }
+  .index-card{
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+  }
+  .pTagsForCards{
+
+  }
+  .pTagsForCardTitles{
+
+  }
+}
+@media only screen and (min-width:1320px){
+  .index-card{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+  .pTagsForCards{
+
+  }
+  .pTagsForCardTitles{
+
+  }
+}
 
 /*QUERY FOR MOBILE DESIGN OF CAROUSEL FOR INDEX AND PRICING CONTENT*/
 
@@ -184,7 +259,7 @@
   }
 }
 
-@media only screen and (min-width:400px) and (max-width:576px){
+@media only screen and (min-width:400px) and (max-width:540px){
   .pcbcontainer .jumbotron{
     width:22.5rem;
     height:13.85rem;
@@ -192,17 +267,17 @@
   }
 }
 
-@media only screen and (min-width:576px) and (max-width:768px){
+@media only screen and (min-width:540px) and (max-width:768px){
   .pcbcontainer .jumbotron{
     width:43.75rem;
-    height:27rem;
+    height:18.85rem;
 
   }
 }
 @media only screen and (min-width:768px) and (max-width:992px){
   .pcbcontainer .jumbotron{
     width:56.25rem;
-    height:34.72rem;
+    height: 23.85rem;
 
   }
 }
