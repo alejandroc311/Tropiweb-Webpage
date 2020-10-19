@@ -112,7 +112,6 @@
   padding:0.625rem;
   margin: 1.625rem;
   font-family: "quarklight";
-  font-size: 1rem;
 }
 
 .pTagsForCardTitles{
@@ -134,6 +133,7 @@
     margin-right: 0.625rem;
     margin-left: 0.625rem;
     text-align: left;
+    padding: 0.5rem;
   }
 }
 
@@ -321,16 +321,15 @@
 
 .pricing-card{
   margin: 3.25rem;
-  font-size: 1rem;
   font-family: "quarklight";
 
 }
 .pricing-card-heading{
   margin-top: 0.825rem;
-  font-size: 1.600rem;
+
 }
 .pricing-card-title{
-  font-size: 1.525rem;
+
 }
 
 .pricing-card .card-body ul li::before{
@@ -340,40 +339,80 @@
   font-weight: bold;
   width: 10em;
 }
-
 @media only screen and (max-width:400px){
+  .glider-container2{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
   .pricing-card{
-    font-size: 0.825rem;
-  }
-  .pricing-card-heading{
-    font-size: 1.250rem;
-  }
-  .pricing-card-title{
-    font-size: 1rem;
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
+
   }
 }
-@media only screen and (min-width:400px) and (max-width:576px){
+
+@media only screen and (min-width:400px) and (max-width:500px) {
+  .glider-container2{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
   .pricing-card{
-    font-size: 1rem;
-  }
-  .pricing-card-heading{
-    font-size: 1.3rem;
-  }
-  .pricing-card-title{
-    font-size: 1.125rem;
+    margin-right: 0.625rem;
+    margin-left: 0.625rem;
   }
 }
-@media only screen and (min-width:576px) and (max-width:768px){
+
+@media only screen and (min-width:500px) and (max-width:640px) {
+  .glider-container2{
+    padding-right: 4rem;
+    padding-left: 4rem;
+  }
   .pricing-card{
 
   }
-  .pricing-card-heading{
-    font-size: 1.350rem;
+}
+@media only screen and (min-width:640px) and (max-width:720px){
+  .glider-container2{
+    padding-right: 7.5rem;
+    padding-left: 7.5rem;
   }
-  .pricing-card-title{
-    font-size: 1.225rem;
+  .pricing-card{
+
   }
 }
+@media only screen and (min-width:720px) and (max-width:992px) {
+  .glider-container2{
+    padding-right: 2.50rem;
+    padding-left: 2.50rem;
+  }
+  .pricing-card{
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+
+  }
+}
+
+@media only screen and (min-width:992px) and (max-width:1140px) {
+  .pricing-card{
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+  }
+
+}
+@media only screen and (min-width:1140px) and (max-width:1320px) {
+  .pricing-card{
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+  }
+}
+@media only screen and (min-width:1320px){
+  .pricing-card{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+}
+
+
 
 html, body{
   width: auto!important;

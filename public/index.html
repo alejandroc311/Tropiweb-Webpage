@@ -244,7 +244,7 @@ PRICING CONTAINER
 
 
 <div class="container-fluid container-pricing d-none d-lg-block">
-  <div class="card-deck text-center">
+  <div class="card-deck d-flex justify-content-center text-center">
     <div class="card pricing-card border-success">
       <div class="d-flex justify-content-center">
         <img src="pricing-basic-img.png" width="80" height="80" alt="">
@@ -306,102 +306,65 @@ PRICING CONTAINER
 <!--
 CAROUSEL FOR PRICING PAGE ON MOBILE
 -->
-
-<div class="container-fluid d-lg-none d-xl-none">
-  <div class="row">
-    <div id="pricingCarousel" class="carousel slide w-100" data-ride="carousel" data-touch="true">
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <div class="col-12 col-sm-8 col-md-6 offset-md-3 offset-sm-2">
-            <div class="card pricing-card border-success">
-              <div class="d-flex justify-content-center">
-                <img src="pricing-basic-img.png" width="80" height="80" alt="">
-              </div>
-              <div class="d-flex justify-content-center">
-                <h4 class="pricing-card-heading">Basic</h4>
-              </div>
-              <div class="card-body">
-                <div class="d-flex justify-content-center">
-                    <h2 class="card-title pricing-card-title">$549.99</h2>
-                </div>
-                <div class="d-flex justify-content-center">
-                  <ul class="list-unstyled">
-                    <li>SSL Security Certificate</li>
-                    <li>Search Engine Optimization</li>
-                    <li>Contact Form or Mailing List</li>
-                    <li>Logo and Design</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+<div class="container-fluid glider-container2 d-lg-none d-flex justify-content-center text-center">
+  <div class="glider-contain">
+    <div class="glider2">
+      <div class="card pricing-card border-success">
+        <div class="d-flex justify-content-center">
+          <img src="pricing-basic-img.png" width="80" height="80" alt="">
+        </div>
+        <div class="d-flex justify-content-center">
+          <h4 class="pricing-card-heading d-flex justify-content-center ">Basic</h4>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title pricing-card-title">$549.99</h2>
+          <ul class="list-unstyled">
+            <li>SSL Security Certificate</li>
+            <li>Search Engine Optimization</li>
+            <li>Contact Form or Mailing List</li>
+            <li>Logo and Design</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card pricing-card border-success">
+        <div class="d-flex justify-content-center pt-3">
+          <img src="pricing-ecommerce-img.png" alt="">
+        </div>
+        <div class="d-flex justify-content-center">
+          <h4 class="pricing-card-heading d-flex justify-content-center">E-Commerce</h4>
+        </div>
+        <div class="card-body">
+          <h2 class="card-title pricing-card-title">$749.99</h2>
+          <ul class="list-unstyled">
+            <li>Online Store and Transactions</li>
+            <li>Charge Sales Taxes</li>
+            <li>Keep Stock of Merchandise</li>
+            <li>Configure Shipping and Delivery</li>
+          </ul>
         </div>
 
-        <div class="carousel-item">
-          <div class="col-12 col-sm-8 col-md-6 offset-md-3 offset-sm-2">
-            <div class="card pricing-card border-success ">
-              <div class="d-flex justify-content-center pt-3">
-                <img src="pricing-ecommerce-img.png" alt="">
-              </div>
-              <div class="d-flex justify-content-center">
-                <h4 class="pricing-card-heading">E-Commerce</h4>
-              </div>
-              <div class="card-body">
-                <div class="d-flex justify-content-center">
-                  <h2 class="card-title pricing-card-title d-flex justify-content-center">$749.99</h2>
-                </div>
-                <div class="d-flex justify-content-center">
-                  <ul class="list-unstyled">
-                    <li>Online Store and Transactions</li>
-                    <li>Charge Sales Taxes</li>
-                    <li>Keep Stock of Merchandise</li>
-                    <li>Configure Shipping and Delivery</li>
-                  </ul>
-                </div>
-
-              </div>
-            </div>
-          </div>
+      </div>
+      <div class="card pricing-card border-success">
+        <div class="d-flex justify-content-center">
+          <img src="pricing-enterprise-img.png" width="80" height="80" alt="">
         </div>
-        <div class="carousel-item">
-          <div class="col-12 col-sm-8 col-md-6 offset-md-3 offset-sm-2">
-            <div class="card pricing-card border-success">
-              <div class="d-flex justify-content-center">
-                <img src="pricing-enterprise-img.png" width="80" height="80" alt="">
-              </div>
-              <div class="d-flex justify-content-center">
-                <h4 class="pricing-card-heading">Enterprise</h4>
-              </div>
-              <div class="card-body">
-                <div class="d-flex justify-content-center">
-                  <h2 class="card-title pricing-card-title">$849.99 <small>+ $50/hr</small></h2>
-                </div>
-                <div class="d-flex justify-content-center">
-                  <ul class="list-unstyled">
-                    <li>Develop a Custom Web-App</li>
-                    <li>Priority Email and Phone Support</li>
-                    <li>Set up User Accounts</li>
-                    <li>Authenticate User Logins</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="d-flex justify-content-center">
+          <h4 class="pricing-card-heading d-flex justify-content-center">Enterprise</h4>
         </div>
-        <a class="carousel-control-prev" href="#pricingCarousel" role="button" data-slide="prev">
-            <span>
-              <img src="flecha-de.png" alt="">
-            </span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#pricingCarousel" role="button" data-slide="next">
-            <span>
-              <img src="flecha-iz.png" alt="">
-            </span>
-            <span class="sr-only">Next</span>
-          </a>
+        <div class="card-body">
+          <h2 class="card-title pricing-card-title">$849.99 <small>+ $50/hr</small></h2>
+          <ul class="list-unstyled">
+            <li>Develop a Custom Web-App</li>
+            <li>Priority Email and Phone Support</li>
+            <li>Set up User Accounts</li>
+            <li>Authenticate User Logins</li>
+          </ul>
+        </div>
       </div>
     </div>
+    <button aria-label="Previous" class="glider-prev">«</button>
+    <button aria-label="Next" class="glider-next">»</button>
+    <div role="tablist" class="dots"></div>
   </div>
 </div>
 
