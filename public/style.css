@@ -25,13 +25,15 @@
   font-size: 1.5rem;
   font-family: 'quarklight';
 }
-
+.navbar-toggler{
+  margin-left: 0.317rem;
+}
 .jquerybrand{
   padding-top: 0;
   padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 2.5rem;
+  margin-left: 0.625rem;
 }
 
 @media only screen and (max-width:576px) {
@@ -74,7 +76,7 @@
 
 @media only screen and (min-width:400px) and (max-width:576px){
   .jumbotron{
-    height: 7.25rem;
+    height: 8rem;
   }
 }
 
@@ -85,7 +87,7 @@
 }
 @media only screen and (min-width:768px) and (max-width:992px){
   .jumbotron{
-    height: 14rem;
+    height: 12rem;
   }
 }
 @media only screen and (min-width:992px) and (max-width:1200px){
@@ -119,10 +121,6 @@
 
 }
 
-.pTagsForCards {
-
-
-}
 
 @media only screen and (max-width:400px){
   .glider-container{
@@ -132,8 +130,12 @@
   .index-card{
     margin-right: 0.625rem;
     margin-left: 0.625rem;
-    text-align: left;
-    padding: 0.5rem;
+    text-align: center;
+    padding: 0.625rem;
+    font-size: 0.625rem;
+  }
+  .pTagsForCardTitles{
+    font-size: 0.96rem;
   }
 }
 
@@ -145,13 +147,11 @@
   .index-card{
     margin-right: 0.625rem;
     margin-left: 0.625rem;
-    text-align: left;
-  }
-  .pTagsForCards{
-
+    text-align: center;
+    font-size: 0.8rem;
   }
   .pTagsForCardTitles{
-
+    font-size: 0.96rem;
   }
 }
 
@@ -162,13 +162,11 @@
     padding-left: 4rem;
   }
   .index-card{
-    text-align: left;
-  }
-  .pTagsForCards{
-
+    text-align: center;
+    font-size: 0.9rem;
   }
   .pTagsForCardTitles{
-
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width:640px) and (max-width:720px){
@@ -178,14 +176,13 @@
     padding-left: 7.5rem;
   }
   .index-card{
-    text-align: left;
-  }
-  .pTagsForCards{
-
+    text-align: center;
+    font-size: 0.9rem;
   }
   .pTagsForCardTitles{
-
+    font-size: 1rem;
   }
+
 }
 @media only screen and (min-width:720px) and (max-width:960px) {
   .glider-container{
@@ -195,13 +192,11 @@
   .index-card{
     margin-left: 0.625rem;
     margin-right: 0.625rem;
-    text-align: left;
-  }
-  .pTagsForCards{
-
+    text-align: center;
+    font-size: 1rem;
   }
   .pTagsForCardTitles{
-
+    font-size: 1.1rem;
   }
 }
 
@@ -214,12 +209,6 @@
     margin-left: 0.625rem;
     margin-right: 0.625rem;
   }
-  .pTagsForCards{
-
-  }
-  .pTagsForCardTitles{
-
-  }
 }
 @media only screen and (min-width:1140px) and (max-width:1320px) {
   .glider-container{
@@ -230,24 +219,13 @@
     margin-left: 0.625rem;
     margin-right: 0.625rem;
   }
-  .pTagsForCards{
-
-  }
-  .pTagsForCardTitles{
-
-  }
 }
 @media only screen and (min-width:1320px){
   .index-card{
     margin-left: 1.25rem;
     margin-right: 1.25rem;
   }
-  .pTagsForCards{
 
-  }
-  .pTagsForCardTitles{
-
-  }
 }
 
 /*QUERY FOR MOBILE DESIGN OF CAROUSEL FOR INDEX AND PRICING CONTENT*/
@@ -265,7 +243,7 @@
 @media only screen and (max-width:400px){
   .pcbcontainer .jumbotron{
     width:22.5rem;
-    height:13.85rem;
+    height:11.35rem;
 
   }
 }
@@ -295,14 +273,14 @@
 @media only screen and (min-width:992px) and (max-width:1200px){
   .pcbcontainer .jumbotron{
     width:62.50rem;
-    height:38.60rem;
+    height:30rem;
 
   }
 }
 @media only screen and (min-width:1200px){
   .pcbcontainer .jumbotron{
     width:62.50rem;
-    height:38.60rem;
+    height:35rem;
 
   }
 }
@@ -312,27 +290,19 @@
 
 .container-pagetransition{
   font-family: "quarklight";
-}
-
-
-.container-pricing{
-  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .pricing-card{
   margin: 3.25rem;
   font-family: "quarklight";
-
 }
 .pricing-card-heading{
   margin-top: 0.825rem;
-
-}
-.pricing-card-title{
-
 }
 
-.pricing-card .card-body ul li::before{
+
+.pricing-card ul li::before{
   content: "\2022";
   margin-right: 0.125rem;
   color: #00A501;
@@ -347,7 +317,14 @@
   .pricing-card{
     margin-right: 0.625rem;
     margin-left: 0.625rem;
+    font-size: 0.8rem;
 
+  }
+  .pricing-card-heading{
+    font-size: 1.2rem;
+  }
+  .pricing-card-title{
+    font-size: 1.2rem;
   }
 }
 
@@ -359,25 +336,44 @@
   .pricing-card{
     margin-right: 0.625rem;
     margin-left: 0.625rem;
+    font-size: 0.8rem;
+  }
+  .pricing-card-heading{
+    font-size: 1.2rem;
+  }
+  .pricing-card-title{
+    font-size: 1.2rem;
   }
 }
 
 @media only screen and (min-width:500px) and (max-width:640px) {
   .glider-container2{
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
   }
   .pricing-card{
-
+    font-size: 1rem;
+  }
+  .pricing-card-heading{
+    font-size: 1.45rem;
+  }
+  .pricing-card-title{
+    font-size: 1.45rem;
   }
 }
 @media only screen and (min-width:640px) and (max-width:720px){
   .glider-container2{
-    padding-right: 7.5rem;
-    padding-left: 7.5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
   }
   .pricing-card{
-
+    font-size: 1.1rem;
+  }
+  .pricing-card-heading{
+    font-size: 1.625rem;
+  }
+  .pricing-card-title{
+    font-size: 1.625rem;
   }
 }
 @media only screen and (min-width:720px) and (max-width:992px) {
@@ -388,31 +384,57 @@
   .pricing-card{
     margin-left: 0.625rem;
     margin-right: 0.625rem;
-
+    font-size: 1.1rem;
+  }
+  .pricing-card-heading{
+    font-size: 1.625rem;
+  }
+  .pricing-card-title{
+    font-size: 1.625rem;
   }
 }
 
 @media only screen and (min-width:992px) and (max-width:1140px) {
   .pricing-card{
+    width: 18rem;
+    margin: auto;
+  }
+  .glider-container2{
+    padding-right: 2.50rem;
+    padding-left: 2.50rem;
+  }
+  .pricing-card{
     margin-left: 0.625rem;
     margin-right: 0.625rem;
+    font-size: 1.1rem;
   }
 
 }
 @media only screen and (min-width:1140px) and (max-width:1320px) {
   .pricing-card{
+    margin: auto;
+    width: 22rem;
+  }
+  .glider-container2{
+    padding-right: 2.50rem;
+    padding-left: 2.50rem;
+  }
+  .pricing-card{
     margin-left: 0.625rem;
     margin-right: 0.625rem;
+    font-size: 1.1rem;
   }
 }
 @media only screen and (min-width:1320px){
   .pricing-card{
-    margin-left: 1.25rem;
-    margin-right: 1.25rem;
+    margin: auto;
+    width: 26rem;
   }
 }
 
-
+.contactForm{
+  margin-bottom: 2.5rem;
+}
 
 html, body{
   width: auto!important;
