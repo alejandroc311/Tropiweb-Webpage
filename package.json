@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/alejandroc311/Tropiweb-Webpage#readme",
   "dependencies": {
+    "aws-sdk": "^2.776.0",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
+    "nodemailer": "^6.4.14",
+    "nodemailer-smtp-transport": "^2.7.4",
     "validator": "^13.1.1"
   }
 }

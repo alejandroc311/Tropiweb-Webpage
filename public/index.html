@@ -142,7 +142,7 @@
     -->
     <div class="container-fluid glider-container d-xl-none text-center">
       <div class="glider-contain">
-        <div class="glider">
+        <div id="glider">
           <div class="card index-card border-success">
             <div class="d-flex justify-content-center">
               <img src="code icon.png" alt="">
@@ -194,9 +194,12 @@
               keep stock of your merchandise, charge applicable sales taxes, and ship your product with no hassle.</p>
           </div>
         </div>
-
-        <button aria-label="Previous" class="glider-prev">«</button>
-        <button aria-label="Next" class="glider-next">»</button>
+        <button id="glider-prev-1" class="glider-prev">
+          <img src="flecha-de.png"/>
+        </button>
+        <button id="glider-next-1" class="glider-next">
+          <img src="flecha-iz.png"/>
+        </button>
         <div role="tablist" class="dots"></div>
       </div>
     </div>
@@ -246,17 +249,16 @@ PRICING CONTAINER
           <img src="pricing-basic-img.png" width="80" height="80" alt="">
         </div>
         <div class="d-flex justify-content-center">
-          <h4 class="pricing-card-heading d-flex justify-content-center ">Basic</h4>
+          <h4 class="pricing-card-heading d-flex justify-content-center ">Basic Page</h4>
         </div>
         <div class="card-body">
-          <h2 class="card-title pricing-card-title"><small>$900 (Markup) + $400 (Style)</small></h2>
           <h3 class="card-title pricing-card-title">$1,300</h3>
           <ul class="list-unstyled">
             <li>Markup and Style</li>
             <li>SSL Security Certificate</li>
             <li>Search Engine Optimization</li>
             <li>Contact Form or Mailing List</li>
-            <li>Logo and Design</li>
+            <li>Graphic Design</li>
           </ul>
         </div>
       </div>
@@ -267,13 +269,12 @@ PRICING CONTAINER
           <img src="pricing-ecommerce-img.png" alt="">
         </div>
         <div class="d-flex justify-content-center">
-          <h4 class="pricing-card-heading d-flex justify-content-center">E-Commerce</h4>
+          <h4 class="pricing-card-heading d-flex justify-content-center">Add E-Commerce to your Site</h4>
         </div>
         <div class="card-body">
-          <h2 class="card-title pricing-card-title"><small>$1,300 + $650</small></h2>
-          <h3 class="card-title pricing-card-title">$1,950</h3>
+          <h3 class="card-title pricing-card-title">$950</h3>
           <ul class="list-unstyled">
-            <li>Shop Design and Customization</li>
+            <li>Custom Shop Design</li>
             <li>Online Transactions</li>
             <li>Charge Sales Taxes</li>
             <li>Keep Stock of Merchandise</li>
@@ -288,14 +289,13 @@ PRICING CONTAINER
           <img src="pricing-enterprise-img.png" width="80" height="80" alt="">
         </div>
         <div class="d-flex justify-content-center">
-          <h4 class="pricing-card-heading d-flex justify-content-center">Enterprise</h4>
+          <h4 class="pricing-card-heading d-flex justify-content-center">Enterprise Solutions</h4>
         </div>
         <div class="card-body">
-          <h2 class="card-title pricing-card-title"><small>$1,300 + $950</small></h2>
-          <h3 class="card-title pricing-card-title">$2,250</h3>
+          <h3 class="card-title pricing-card-title">Starting at $2,250</h3>
           <ul class="list-unstyled">
             <li>Develop a Custom Web-App</li>
-            <li>Set up Bookings or Appointments</li>
+            <li>Set up Booking or Appointment Systems</li>
             <li>Create User Accounts</li>
             <li>Authenticate User Logins</li>
             <li>Online Systems/Portals and Databases</li>
@@ -314,7 +314,7 @@ CAROUSEL FOR PRICING PAGE ON MOBILE
 -->
 <div class="container-fluid glider-container2 d-xl-none text-center">
   <div class="glider-contain">
-    <div class="glider2">
+    <div id="glider2">
       <div class="card pricing-card border-success">
         <div class="d-flex justify-content-center">
           <img src="pricing-basic-img.png" width="80" height="80" alt="">
@@ -322,14 +322,13 @@ CAROUSEL FOR PRICING PAGE ON MOBILE
         <div class="d-flex justify-content-center">
           <h4 class="pricing-card-heading text-center">Basic</h4>
         </div>
-        <h2 class="card-title pricing-card-title"><small>$900 (Markup) + $400 (Style)</small></h2>
         <h3 class="card-title pricing-card-title">$1,300</h3>
         <ul class="list-unstyled">
           <li>Markup and Style</li>
           <li>SSL Security Certificate</li>
           <li>Search Engine Optimization</li>
           <li>Contact Form or Mailing List</li>
-          <li>Logo and Design</li>
+          <li>Graphic Design</li>
         </ul>
       </div>
       <div class="card pricing-card border-success">
@@ -337,10 +336,9 @@ CAROUSEL FOR PRICING PAGE ON MOBILE
           <img src="pricing-ecommerce-img.png" alt="">
         </div>
         <div class="d-flex justify-content-center">
-          <h4 class="pricing-card-heading text-center">E-Commerce</h4>
+          <h4 class="pricing-card-heading text-center">Add E-Commerce to your Site</h4>
         </div>
-        <h2 class="card-title pricing-card-title"><small>$1,300 + $650</small></h2>
-        <h3 class="card-title pricing-card-title">$1,950</h3>
+        <h3 class="card-title pricing-card-title">$950</h3>
         <ul class="list-unstyled">
           <li>Shop Design and Customization</li>
           <li>Online Transactions</li>
@@ -354,23 +352,104 @@ CAROUSEL FOR PRICING PAGE ON MOBILE
           <img src="pricing-enterprise-img.png" width="80" height="80" alt="">
         </div>
         <div class="d-flex justify-content-center">
-          <h4 class="pricing-card-heading text-center">Enterprise</h4>
+          <h4 class="pricing-card-heading text-center">Enterprise Solutions</h4>
         </div>
 
-        <h2 class="card-title pricing-card-title"><small>$1,300 + $950</small></h2>
-        <h3 class="card-title pricing-card-title">$2,250</h3>
+        <h3 class="card-title pricing-card-title">Starting at $2,250</h3>
         <ul class="list-unstyled">
           <li>Develop a Custom Web-App</li>
-          <li>Set up Bookings or Appointments</li>
+          <li>Set up Booking or Appointment Systems</li>
           <li>Create User Accounts</li>
           <li>Authenticate User Logins</li>
           <li>Online Systems/Portals and Databases</li>
         </ul>
       </div>
     </div>
-    <button class="glider-prev">«</button>
-    <button class="glider-next">»</button>
+    <button id="glider-prev-2" class="glider-prev">
+      <img src="flecha-de.png"/>
+    </button>
+    <button id="glider-next-2" class="glider-next">
+      <img src="flecha-iz.png"/>
+    </button>
     <div role="tablist" class="dots"></div>
+  </div>
+</div>
+
+<!--
+PAGE TRANSITION FROM PRICING TO ABOUT
+-->
+
+<div class="container-fluid container-pagetransition">
+  <div class="row pricing-header d-flex align-items-center">
+    <div class="col-md-5 col-4 d-flex justify-content-start">
+      <img src="za-line.png" class="mx-auto d-block img-fluid" alt="">
+    </div>
+    <div class="col-md-2 col-4">
+      <h1 class="d-flex justify-content-center">About</h1>
+    </div>
+    <div class="col-md-5 col-4 d-flex justify-content-end" >
+      <img src="za-line.png" class="mx-auto d-block img-fluid"  alt="">
+    </div>
+  </div>
+</div>
+
+<!--
+ABOUT PAGE
+-->
+
+<div class="container-fluid d-flex justify-content-center" id="aboutContainer">
+  <div class="row">
+    <div class="col-lg-4">
+      <div class="card border border-success">
+        <div class="d-flex justify-content-center">
+          <div id="twebContainer">
+            <img src="twebcrew.jpg" alt="" class="border rounded border-success">
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-2">
+          <h3>Who We Are</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p>
+            We are a graphic design and web development company with a prescence in Florida, North Carolina, and Puerto Rico. Our team is equipped with all of the tools and
+            technical/practical knowledge needed to turn your dream website into a reality.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <h3>Why We Do It</h3>
+        </div>
+        <div class="d-flex justify-content-center px-0">
+          <p>
+            The internet has grown exponentially in the last decade. With millions of new websites, applications, and technologies, the amounts of services and products that
+            can be successfully marketed and sold on the internet have also grown exponentially. However, as businesses' online prescence grew, so did their demand for faster and more secure payment portals, more reliable methods of shipping and inventory handling,
+            better authorization and authentication systems for their users, and other tailored-fit custom features for their businesses' online websites, applications, or platforms.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p>
+            This, in turn, led to an unparalleled rise in the amount of and complexity of programming languages, libraries, frameworks, and technologies available for web-development.
+            And thus, the world of web-development has turned into a daunting jungle full of pitholes that can leave businesses of all sizes lost and confused.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <h3>How We Do It</h3>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p>
+            We propose different typographies, color palettes, badges, and markups for our clients to choose. Once all of these components are individually chosen,
+            they are seamlessly integrated in order to bring our clients' websites to life. Clients may, if they so choose, use a CMS to set up their online shop or content.
+            Customability is unaffected by this, since Gatsby allows us to design a custom markup/design while fetching content from the clients' CMSs of choice. This arrangement allows
+            us to create and design with no restrictions while clients can control their content.
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p>
+            If clients wish to add a special functionality or application to their websites, then different architectures with detailed pros and cons will be proposed. Once the
+            design/cost features are settled, the functionality or application will be implemented into the website and deployed.
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

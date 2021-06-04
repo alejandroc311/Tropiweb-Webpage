@@ -317,7 +317,7 @@
   .pricing-card{
     margin-right: 0.625rem;
     margin-left: 0.625rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 
   }
   .pricing-card-heading{
@@ -336,7 +336,7 @@
   .pricing-card{
     margin-right: 0.625rem;
     margin-left: 0.625rem;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .pricing-card-heading{
     font-size: 1.2rem;
@@ -367,7 +367,7 @@
     padding-left: 4rem;
   }
   .pricing-card{
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .pricing-card-heading{
     font-size: 1.625rem;
@@ -384,7 +384,7 @@
   .pricing-card{
     margin-left: 0.625rem;
     margin-right: 0.625rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   .pricing-card-heading{
     font-size: 1.625rem;
@@ -406,7 +406,7 @@
   .pricing-card{
     margin-left: 0.625rem;
     margin-right: 0.625rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
 }
@@ -422,19 +422,153 @@
   .pricing-card{
     margin-left: 0.625rem;
     margin-right: 0.625rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 @media only screen and (min-width:1320px){
   .pricing-card{
     margin: auto;
     width: 26rem;
+    font-size: 1rem;
   }
 }
 
 .contactForm{
   margin-bottom: 2.5rem;
 }
+/*
+ABOUT PAGE
+*/
+#aboutContainer .card{
+  font-family: 'quarklight';
+}
+
+#twebContainer{
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+@media only screen and (max-width:400px){
+  #aboutContainer .card{
+    width: 20rem;
+  }
+  #twebContainer img{
+    width: 260px;
+    height: 260px;
+  }
+  #aboutContainer p{
+    font-size: 0.9rem;
+    text-align: center;
+    margin:0.317rem;
+  }
+}
+
+@media only screen and (min-width:400px) and (max-width:500px) {
+  #aboutContainer .card{
+    width: 24rem;
+  }
+  #twebContainer img{
+    width: 280px;
+    height: 280px;
+  }
+  #aboutContainer p{
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0.625rem;
+  }
+}
+
+@media only screen and (min-width:500px) and (max-width:640px) {
+  #aboutContainer .card{
+    width: 24rem;
+  }
+  #twebContainer img{
+    width: 280px;
+    height: 280px;
+  }
+  #aboutContainer p{
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0.625rem;
+  }
+}
+@media only screen and (min-width:640px) and (max-width:720px){
+  #aboutContainer .card{
+    width: 26rem;
+  }
+  #twebContainer img{
+    width: 320px;
+    height: 320px;
+  }
+  #aboutContainer p{
+    font-size: 1rem;
+    text-align: center;
+    margin: 0.625rem;
+  }
+
+}
+@media only screen and (min-width:720px) and (max-width:960px) {
+  #aboutContainer .card{
+    width: 28rem;
+  }
+  #twebContainer img{
+    width: 320px;
+    height: 320px;
+  }
+  #aboutContainer p{
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 1.875rem;
+    margin-left: 1.875rem;
+  }
+}
+
+@media only screen and (min-width:960px) and (max-width:1140px) {
+  #aboutContainer .card{
+    width: 36rem;
+  }
+  #twebContainer img{
+    width: 360px;
+    height: 360px;
+  }
+  #aboutContainer p{
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 1.875rem;
+    margin-left: 1.875rem;
+  }
+}
+@media only screen and (min-width:1140px) and (max-width:1320px) {
+  #aboutContainer .card{
+    width: 40rem;
+  }
+  #twebContainer img{
+    width: 400px;
+    height: 400px;
+  }
+  #aboutContainer p{
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 1.875rem;
+    margin-left: 1.875rem;
+  }
+}
+@media only screen and (min-width:1320px){
+  #aboutContainer .card{
+    width: 44rem;
+  }
+  #twebContainer img{
+    width: 480px;
+    height: 400px;
+  }
+  #aboutContainer p{
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 1.875rem;
+    margin-left: 1.875rem;
+  }
+}
+
 
 html, body{
   width: auto!important;

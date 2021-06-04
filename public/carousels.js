@@ -1,11 +1,11 @@
-new Glider(document.querySelector('.glider'), {
+new Glider(document.getElementById('glider'), {
   slidesToShow: 1,
   slidesToScroll: 1,
   draggable: true,
   dots: '.dots',
   arrows: {
-    prev: '.glider-prev',
-    next: '.glider-next'
+    prev: '#glider-prev-1',
+    next: '#glider-next-1'
   },
  responsive: [
    {
@@ -28,14 +28,14 @@ new Glider(document.querySelector('.glider'), {
  ]
 });
 
-new Glider(document.querySelector('.glider2'), {
+new Glider(document.getElementById('glider2'), {
   slidesToShow: 1,
   slidesToScroll: 1,
   draggable: true,
   dots: '.dots',
   arrows: {
-    prev: '.glider-prev',
-    next: '.glider-next'
+    prev: '#glider-prev-2',
+    next: '#glider-next-2'
   },
  responsive: [
    {
