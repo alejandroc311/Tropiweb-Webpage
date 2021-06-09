@@ -60,9 +60,10 @@ $(function(){
           comment: getComment()
         };
         $.ajax({
-          url: "https://rqwq3jswjd.execute-api.us-east-1.amazonaws.com/contactinfobeta5/contact-info-forward",
+          url: "https://rqwq3jswjd.execute-api.us-east-1.amazonaws.com/contactinfoalpha/contact-info-forward",
           type: 'post',
           contentType: "application/json",
+          crossDomain:"true",
           data: JSON.stringify(data),
           success: function(){
             console.log("Info was successfully transferred to Lambda API.");

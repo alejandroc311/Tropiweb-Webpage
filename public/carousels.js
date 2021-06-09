@@ -1,0 +1,52 @@
+new Glider(document.getElementById('glider'), {
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  draggable: true,
+  dots: '.dots',
+  arrows: {
+    prev: '#glider-prev-1',
+    next: '#glider-next-1'
+  },
+ responsive: [
+   {
+     // screens greater than >= 775px
+     breakpoint: 720,
+     settings: {
+       // Set to `auto` and provide item width to adjust to viewport
+       slidesToShow: 2,
+       slidesToScroll: 1,
+     }
+
+   },
+    {
+      breakpoint: 960,
+      settings: {
+        slidesToShow:3,
+        slidesToScroll:1,
+    }
+   }
+ ]
+});
+
+new Glider(document.getElementById('glider2'), {
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  draggable: true,
+  dots: '.dots',
+  arrows: {
+    prev: '#glider-prev-2',
+    next: '#glider-next-2'
+  },
+ responsive: [
+   {
+     // screens greater than >= 775px
+     breakpoint: 720,
+     settings: {
+       // Set to `auto` and provide item width to adjust to viewport
+       slidesToShow: 2,
+       slidesToScroll: 1,
+     }
+
+   }
+ ]
+});
